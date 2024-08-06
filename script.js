@@ -144,8 +144,7 @@ async function displayAlbums() {
 
          let div = document.createElement('div')
          div.innerHTML = res
-          console.log(res);
-          
+                
          let anchortag = div.getElementsByTagName('a')
 
          let cardRow = document.querySelector('.card-row')
@@ -182,7 +181,7 @@ async function displayAlbums() {
          }
 
          let card = Array.from(document.querySelectorAll('.card-box'))
-         console.log("cards are", card);
+         console.log("cards are", card); 
 
          for (const item of card) {
             item.classList.add('cursor')
