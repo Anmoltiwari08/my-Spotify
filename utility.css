@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+
+}
+
+.a-item{
+    align-items: center;
+}
+.j-item{
+    justify-content: center;
+}
+
+.border{
+    border: 2px solid rgb(239, 231, 231);
+}
+
+.bg-grey{
+    background: #121212;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.gap{
+    gap: 10px;
+}
+
+.b-rad{
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.display{
+    display: none;}

@@ -1,0 +1,159 @@
+@media screen and (max-width:1300px) {
+    .hamberger {
+        display: inline-block;
+
+    }
+
+    .left {
+        width: 326px;
+        position: absolute;
+        z-index: 100;
+        transform: translateX(-100%)
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .card-box {
+        width: 14%;
+    }
+
+    .cross {
+        display: block;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    /* .play-icon svg {
+        top: 140px;
+    }*/
+
+    .card-box:hover .play-icon svg {
+        /* z-index: 1; */
+        top: 40%;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .play-icon svg {
+        top: 140px;
+    }
+
+    .card-box {
+        width: 19%;
+        padding: 8px 8px;
+    }
+
+    .card-box:hover .play-icon svg {
+        /* z-index: 1; */
+        top: 45%;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .card-box {
+        width: 25%;
+        padding: 8px 8px;
+    }
+    .card-container{
+        height: calc(500px - 15px);
+    }
+}
+
+@media screen and (max-width:700px) {
+    .card-box {
+        width: 33%;
+        padding: 8px 8px;
+    }
+   
+     /* .card-container{
+        height: calc(500px - 15px);
+     } */
+
+    .song-time-volume {
+        /* flex-direction: row; */
+        
+        justify-content: space-between;
+        width: 100%;
+    }
+    .song-buttons {
+        position: relative;
+        top: 30px;
+    }
+    .song-info {
+        width: 50%;
+        /* overflow: hidden; */
+        height: 20px;
+        position: relative;
+        top: 20px;
+    }
+    .above-seekbar {
+        justify-content: space-between;
+        flex-direction: column;
+        position: relative;
+        /* height: 46px; */
+    }
+    .play-bar {
+        /* position: absolute;
+        bottom: 0; */
+        height: 125px;
+        bottom:10px;
+        padding: 2px 5px;
+        bottom: 26px;
+        /* width: 100%;
+        background-color: #1d2626;
+        border-radius: 15px;
+        margin-left: 5px;
+        z-index: 10; */
+        /* flex-direction: column; */
+        /* display: flex; */
+       
+        /* gap: 22px; */
+        /* justify-content: space-around; */
+    }
+    .card-container{
+        height: calc(500px - 15px);
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .card-box {
+        width: 50%;
+        padding: 8px 8px;
+    }
+
+    input#range {
+        width: 99px;
+    }
+
+    .soundbar{
+        transform: rotate(-90deg);
+        width: 35px;
+
+    }
+}
+
+@media screen and (max-width:400px) {
+    .login{
+        display: none;
+    }
+    .song-buttons img {
+     height: 30px;
+     width: 30px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .card-box {
+        width: 100%;
+        /* padding: 8px 8px; */
+    }
+    .song-time-volume {
+        display: none;
+    }
+}

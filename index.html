@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+</head> 
+  
+<body>
+    <div class="container flex ">
+        <div class="left flex ">
+            <div class="upper-part bg-grey  flex b-rad">
+                <div class="logo">
+                    <img src="/img/logo.svg" alt="logo" class="invert">
+                </div>
+                <ul class="flex ">
+                    <li class="home flex a-item cursor"> <img src="/img/home.svg" alt="Home" class="invert"> Home </li>
+                    <li class="search flex a-item cursor"><img src="/img/search.svg" alt="Search" class="invert"> Search
+                    </li>
+                </ul>
+                <div class="cross invert">
+                    <img src="img/close.svg" alt="">
+                </div>                
+            </div>
+
+            <div class="lower-part bg-grey b-rad"> 
+                <div class="library">
+                    <div class="img-head flex a-item">
+                        <img src="/img/playlist.svg" class=" invert" alt="">
+                        <h4>Your Library</h4>
+                    </div>
+                    <div class="plus-icon">
+                        <img src="" class="">
+                    </div>
+                </div>
+                <div class="shown-library ">
+                   
+                    <ul class="cursor">
+
+                    </ul>
+                </div>
+                <div class="bottom-section">
+                    <div class="topics flex ">
+                        <div class="line1 gap flex"><span><a href="#">Legal</a></span> <span><a href="#">Safety &
+                                    Privacy Center </a></span> <span><a href="#">Privacy Policy</a></span> <span><a
+                                    href="#">Cookies</a></span></div>
+                        <div class="line2 gap flex"><span><a href="#">About Ads</a></span> <span><a
+                                    href="#">Accessibility</a></span> </div>
+                        <div class="line3"><span><a href="#">Cookies</a></span> </div>
+                    </div>
+                    <div class="others"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right  b-rad">
+            <div class="nav-bar flex a-item b-rad">
+                <div class="icons">
+                      <div class="hamberger display">
+                        <img src="/img/hamburger.svg"  class="invert">
+                      </div>
+                    <div class="next-pre cursor">
+    
+    
+                        <svg class="flip-horizontal" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#9d9d9d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+    
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                                stroke="#9d9d9d" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+    
+    
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signup cursor">Sign up</button>
+                    <button class="login cursor">Log in</button>
+                </div>
+            </div>
+            <div class="card-container ">
+                <div class="cards ">
+
+                    <h2>Spotify-Playlists</h2>
+                    <div class="card-row flex ">
+                        <!-- <div class="card-box flex ">
+                            <div class="card-img">
+                                <img src="img/cover.jpg" alt="">
+                            </div>
+                            <h3>Happy Hits!</h3>
+                            <p>Hits to boost your mood and fill with...</p>
+                            <div class="play-icon">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                                    color="#0c0c0c" fill="none">
+                                    <circle cx="12" cy="12" r="10" stroke="" stroke-width="1.5" fill="#1ed760" />
+                                    <path
+                                        d="M9.5 11.1998V12.8002C9.5 14.3195 9.5 15.0791 9.95576 15.3862C10.4115 15.6932 11.0348 15.3535 12.2815 14.6741L13.7497 13.8738C15.2499 13.0562 16 12.6474 16 12C16 11.3526 15.2499 10.9438 13.7497 10.1262L12.2815 9.32594C11.0348 8.6465 10.4115 8.30678 9.95576 8.61382C9.5 8.92086 9.5 9.6805 9.5 11.1998Z"
+                                        fill="currentColor" />
+                                </svg>
+
+                            </div>
+                        </div> -->
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="play-bar flex  ">
+                <div class="above-seekbar flex  a-item">
+                    <div class="song-info ">...</div>
+                    <div class="song-buttons invert   ">
+                        <img src="img/prevsong.svg" class="previous cursor" alt="">
+                        <img src="img/play.svg" class="play cursor" alt="">
+                        <img src="img/nextsong.svg" class="next cursor" alt="">
+                    </div>
+                    <div class="song-time-volume flex a-item">
+                        <div class="song-time">
+                            00:00/00:00
+                        </div>
+                        <div class="volume flex a-item">
+                            <div class="sound invert  ">
+                                <img src="img/volume.svg" alt="">
+                            </div>
+                            <div class="soundbar">
+                                <input type="range" class="cursor" name="" id="range">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seekbar">
+                    <div class="circle invert">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
